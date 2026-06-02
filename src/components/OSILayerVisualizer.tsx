@@ -1002,11 +1002,11 @@ const OSILayerVisualizer: React.FC = () => {
                         <div>Protocol Type (2B)</div>
                         <div>HW Len (1B)</div>
                         <div>Proto Len (1B)</div>
-                        <div colSpan={2}>Operation (2B)</div>
-                        <div colSpan={2}>Sender MAC (6B)</div>
-                        <div colSpan={2}>Sender IP (4B)</div>
-                        <div colSpan={2}>Target MAC (6B)</div>
-                        <div colSpan={2}>Target IP (4B)</div>
+                        <div className="col-span-2">Operation (2B)</div>
+                        <div className="col-span-2">Sender MAC (6B)</div>
+                        <div className="col-span-2">Sender IP (4B)</div>
+                        <div className="col-span-2">Target MAC (6B)</div>
+                        <div className="col-span-2">Target IP (4B)</div>
                       </div>
                     </div>
                   </div>
