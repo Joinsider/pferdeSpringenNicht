@@ -6,5 +6,4 @@ dist
 *.log
 .dockerignore
 Dockerfile
-nginx.conf
 README.md
